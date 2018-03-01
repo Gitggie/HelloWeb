@@ -17,7 +17,6 @@
     <definition name="11" extends="base">
         <put-attribute name="body" value="/jsp/t11body.jsp"/>
     </definition>
-
 </tiles-definitions>
         <!--<?xml version="1.0" encoding="UTF-8" ?>-->
         <!--<!DOCTYPE tiles-definitions PUBLIC-->
