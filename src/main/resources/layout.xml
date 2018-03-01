@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+    <definition name="base" template="jsp/t10template.jsp">
+        <put-attribute name="title" value=""/>
+        <put-attribute name="header" value="/jsp/t10header.jsp"/>
+        <put-attribute name="menu" value=""/>
+        <put-attribute name="footer" value="/jsp/t10footer.jsp"/>
+    </definition>
+
+    <definition name="10" extends="base">
+        <put-attribute name="body" value="/jsp/t10body.jsp"/>
+    </definition>
+    <definition name="11" extends="base">
+        <put-attribute name="body" value="/jsp/t11body.jsp"/>
+    </definition>
+
+</tiles-definitions>
+        <!--<?xml version="1.0" encoding="UTF-8" ?>-->
+        <!--<!DOCTYPE tiles-definitions PUBLIC-->
+        <!--"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"-->
+        <!--"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">-->
+        <!--<tiles-definitions>-->
+        <!--&lt;!&ndash; 主布局 &ndash;&gt;-->
+        <!--<definition name="layout" template="WEB-INF/jsp/mainLayout.jsp">-->
+        <!--</definition>-->
+        <!--&lt;!&ndash; 主布局 &ndash;&gt;-->
+        <!--&lt;!&ndash; 项目 &ndash;&gt;-->
+        <!--<definition name="myView" extends="layout">-->
+        <!--<put-attribute name="a" value="/WEB-INF/jsp/a.jsp" />-->
+        <!--<put-attribute name="b" value="/WEB-INF/jsp/b.jsp" />-->
+        <!--</definition>-->
+        <!--&lt;!&ndash;项目&ndash;&gt;-->
+        <!--</tiles-definitions>-->
