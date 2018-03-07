@@ -4,7 +4,11 @@
         "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
 
 <tiles-definitions>
-    <definition name="base" template="jsp/t10template.jsp">
+
+    <definition name="m" template="/jsp/m.jsp"/>
+
+
+    <definition name="base" template="/jsp/t10template.jsp">
         <put-attribute name="title" value=""/>
         <put-attribute name="header" value="/jsp/t10header.jsp"/>
         <put-attribute name="menu" value=""/>
@@ -16,6 +20,18 @@
     </definition>
     <definition name="11" extends="base">
         <put-attribute name="body" value="/jsp/t11body.jsp"/>
+    </definition>
+    <definition name="12" extends="base">
+        <put-attribute name="body" value="/jsp/a.jsp"/>
+    </definition>
+    <definition name="13" extends="base">
+        <put-attribute name="body" value="/jsp/b.jsp"/>
+    </definition>
+    <definition name="14" extends="base">
+        <put-attribute name="body" value="/jsp/c.jsp"/>
+    </definition>
+    <definition name="15" extends="base">
+        <put-attribute name="body" value="/jsp/d.jsp"/>
     </definition>
 </tiles-definitions>
         <!--<?xml version="1.0" encoding="UTF-8" ?>-->

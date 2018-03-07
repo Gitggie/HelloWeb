@@ -34,4 +34,15 @@
         SELECT count(*) FROM student WHERE major =3 AND status=0
     </select>
 
+    <!--task5-->
+    <select id="insert" parameterType="User">
+        INSERT into user(name,password,salt) VALUES(#{name},#{password},#{salt})
+    </select>
+
+    <select id="selectUserByName" parameterType="java.lang.String" resultType="User" >
+        SELECT * FROM user WHERE name=#{name}
+    </select>
+    <select id="updateTime" >
+        UPDATE user SET time=#{time,jdbcType=BIGINT} WHERE name=#{name}
+    </select>
 </mapper>

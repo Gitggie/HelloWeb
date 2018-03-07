@@ -2,8 +2,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <link href="${pageContext.request.contextPath}/t11/t11.css" rel="stylesheet" type="text/css">
 <link href="${pageContext.request.contextPath}/t11/base.css" rel="stylesheet" type="text/css">
-<div class="container">
 
+
+<div class="container">
+    <h2>&lt;下面有个退出登录连接&gt</h2>
+    <a  href ="${pageContext.request.contextPath}/logout">退出登录</a>
     <div class="nav-title">首页&gt;职业</div>
     <div class="nav-bar">
         <span class="">方向：</span>
@@ -26,7 +29,7 @@
 
                 <div class="warp-border">
                     <div class="clearfix">
-                        <div class="icon-people"><img src="t11/imges/687.png"></div>
+                        <div class="icon-people"><img src="${pageContext.request.contextPath}/t11/imges/687.png"></div>
                         <div class="text">
                             <h4 class="">java后端工程师</h4>
                             <p class="text-present">Web前端开发工程师，主要职责是利用(X)HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发。</p>
@@ -35,11 +38,13 @@
 
                     <div class="warp-class2">
                         <div class="warp-class2-text">
-                            <div class="iconfont text-padding">门槛 <img src="t11/imges/xx.png"></div>
+                            <div class="iconfont text-padding">门槛 <img
+                                    src="${pageContext.request.contextPath}/t11/imges/xx.png"></div>
                         </div>
                         <div class="warp-class2-text">
-                            <div class="iconfont text-padding text-border-left">难易程度 <img src="t11/imges/xx.png"><img
-                                    src="t11/imges/xx.png"></div>
+                            <div class="iconfont text-padding text-border-left">难易程度 <img
+                                    src="${pageContext.request.contextPath}/t11/imges/xx.png"><img
+                                    src="${pageContext.request.contextPath}/t11/imges/xx.png"></div>
                         </div>
                     </div>
                     <div class="warp-class2">
@@ -100,7 +105,7 @@
 
                 <div class="warp-border">
                     <div class="clearfix">
-                        <div class="icon-people"><img src="t11/imges/687.png"></div>
+                        <div class="icon-people"><img src="${pageContext.request.contextPath}/t11/imges/687.png"></div>
                         <div class="text">
                             <h4 class="">Web前端工程师</h4>
                             <p class="text-present">Web前端开发工程师，主要职责是利用(X)HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发。</p>
@@ -109,11 +114,11 @@
 
                     <div class="warp-class2">
                         <div class="warp-class2-text">
-                            <div class="iconfont text-padding">门槛 <img src="t11/imges/xx.png"></div>
+                            <div class="iconfont text-padding">门槛 <img src="${pageContext.request.contextPath}/t11/imges/xx.png"></div>
                         </div>
                         <div class="warp-class2-text">
-                            <div class="iconfont text-padding text-border-left">难易程度 <img src="t11/imges/xx.png"><img
-                                    src="t11/imges/xx.png"></div>
+                            <div class="iconfont text-padding text-border-left">难易程度 <img src="${pageContext.request.contextPath}/t11/imges/xx.png"><img
+                                    src="${pageContext.request.contextPath}/t11/imges/xx.png"></div>
                         </div>
                     </div>
                     <div class="warp-class2">
@@ -173,7 +178,7 @@
 
                 <div class="warp-border">
                     <div class="clearfix">
-                        <div class="icon-people"><img src="t11/imges/687.png"></div>
+                        <div class="icon-people"><img src="${pageContext.request.contextPath}/t11/imges/687.png"></div>
                         <div class="text">
                             <h4 class="">yidong工程师</h4>
                             <p class="text-present">Web前端开发工程师，主要职责是利用(X)HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发。</p>
@@ -182,11 +187,11 @@
 
                     <div class="warp-class2">
                         <div class="warp-class2-text">
-                            <div class="iconfont text-padding">门槛 <img src="t11/imges/xx.png"></div>
+                            <div class="iconfont text-padding">门槛 <img src="${pageContext.request.contextPath}/t11/imges/xx.png"></div>
                         </div>
                         <div class="warp-class2-text">
-                            <div class="iconfont text-padding text-border-left">难易程度 <img src="t11/imges/xx.png"><img
-                                    src="t11/imges/xx.png"></div>
+                            <div class="iconfont text-padding text-border-left">难易程度 <img src="${pageContext.request.contextPath}/t11/imges/xx.png"><img
+                                    src="${pageContext.request.contextPath}/t11/imges/xx.png"></div>
                         </div>
                     </div>
                     <div class="warp-class2">

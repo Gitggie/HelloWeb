@@ -6,6 +6,20 @@
 
     <display-name>Spring MVC Application</display-name>
 
+    <!--字符过滤器，防止字符出现乱码-->
+    <filter>
+        <filter-name>CharacterEncodingFilter</filter-name>
+        <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>CharacterEncodingFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
     <servlet>
         <servlet-name>HelloWeb</servlet-name>
         <servlet-class>
@@ -27,27 +41,27 @@
 
 
     <servlet-mapping>
-        <servlet-name>resin-file</servlet-name>
+        <servlet-name>default</servlet-name>
         <url-pattern>*.html</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>resin-file</servlet-name>
+        <servlet-name>default</servlet-name>
         <url-pattern>*.png</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>resin-file</servlet-name>
+        <servlet-name>default</servlet-name>
         <url-pattern>*.js</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>resin-file</servlet-name>
+        <servlet-name>default</servlet-name>
         <url-pattern>*.jpg</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>resin-file</servlet-name>
+        <servlet-name>default</servlet-name>
         <url-pattern>*.css</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>resin-file</servlet-name>
+        <servlet-name>default</servlet-name>
         <url-pattern>*.gif</url-pattern>
     </servlet-mapping>
 
